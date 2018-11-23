@@ -2651,7 +2651,7 @@ public final class WrapperManager
      *  if the JVM was launched manually without the Wrapper controlling it.
      *
      * @return True if the current JVM was launched by the Wrapper.
-     * 判断是否由wrapper 启动的jvm
+     * 判断是否由wrapper 启动的jvm,如果是则返回true
      */
     public static boolean isControlledByNativeWrapper()
     {
